@@ -1,0 +1,76 @@
+<html><head>
+ <title>Hangman Game</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="gameArea">
+ <div class="score"> </div>
+ <div class="puzzle"></div>
+ <div class="letters"></div>
+ <button>Start Game</button>
+ </div>
+ <scriptsrc="script.js"></script>
+<script>
+  /*document.addEventListener('DOMContentLoaded', () => {
+    const startButton = document.querySelector('button');
+    const scoreDisplay = document.querySelector('.score');
+    const puzzleDisplay = document.querySelector('.puzzle');
+    const lettersDisplay = document.querySelector('.letters');
+
+    let score = 0;
+    let currentWord = '';
+    let guessedLetters = [];
+
+    startButton.addEventListener('click', startGame);
+
+    function startGame() {
+      currentWord = getRandomWord();
+      guessedLetters = [];
+      score = 0;
+      updatePuzzle();
+      updateScore();
+      lettersDisplay.innerHTML = '';
+      generateLetterButtons();
+    }
+
+    function getRandomWord() {
+      const words = ['javascript', 'hangman', 'coding', 'programming', 'developer'];
+      return words[Math.floor(Math.random() * words.length)];
+    }
+
+    function updatePuzzle() {
+      puzzleDisplay.innerHTML = currentWord.split('').map(letter => 
+        guessedLetters.includes(letter) ? letter : '_'
+      ).join(' ');
+    }
+
+    function updateScore() {
+      scoreDisplay.textContent = `Score: ${score}`;
+    }
+
+    function generateLetterButtons() {
+      lettersDisplay.innerHTML = '';
+      for (let i = 97; i <= 122; i++) { // a-z
+        const letterButton = document.createElement('button');
+        letterButton.textContent = String.fromCharCode(i);
+        letterButton.addEventListener('click', () => guessLetter(String.fromCharCode(i)));
+        lettersDisplay.appendChild(letterButton);
+      }
+    }
+
+    function guessLetter(letter) {
+      if (!guessedLetters.includes(letter)) {
+        guessedLetters.push(letter);
+        if (currentWord.includes(letter)) {
+          score += 10;
+        } else {
+          score -= 5;
+        }
+        updatePuzzle();
+        updateScore();
+      }
+    }
+  });*/
+ </script>
+</body>
+</html>
