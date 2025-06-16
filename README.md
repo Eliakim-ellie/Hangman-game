@@ -7,7 +7,6 @@ A simple, browser-based Hangman game built with HTML, CSS, and JavaScript. Try t
 
 ## 🚀 Features
 - Random word selection
-- Keyboard input support
 - Remaining lives counter
 - Game-over and win screens
 - Responsive layout for desktop and mobile
