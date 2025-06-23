@@ -7,7 +7,6 @@ A simple, browser-based Hangman game built with HTML, CSS, and JavaScript. Try t
 - Random word selection
 - Remaining lives counter
 - Responsive layout for desktop and mobile
-
 ## ▶️ Live Demo
 [🌐 Play Now](https://peaceful-sawine-a6332e.netlify.app/)  
 
