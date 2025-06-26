@@ -11,7 +11,6 @@ A simple, browser-based Hangman game built with HTML, CSS, and JavaScript. Try t
 [🌐 Play Now](https://peaceful-sawine-a6332e.netlify.app/)  
 ## 📸 How to Play
 Guess the word one letter at a time. You lose a life for every wrong guess. Guess all letters before you run out of lives to win!
-
 ## 📦 How to Run Locally
 1. Clone the repository:
    ```bash
