@@ -18,3 +18,4 @@ Guess the word one letter at a time. You lose a life for every wrong guess. Gues
 🧑‍💻 Author
 Eliakim Ellie
 GitHub: @Eliakim-ellie
+walela eliakim
