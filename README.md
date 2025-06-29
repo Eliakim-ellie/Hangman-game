@@ -1,6 +1,5 @@
 https://peaceful-sawine-a6332e.netlify.app/
 # 🎯 Hangman Game
-
 A simple, browser-based Hangman game built with HTML, CSS, and JavaScript. Try to guess the hidden word one letter at a time before you run out of lives!
 
 ## 🚀 Features
